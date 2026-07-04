@@ -10,6 +10,22 @@ const recordingList = document.getElementById("recordingList");
 const resultCount = document.getElementById("resultCount");
 const searchInput = document.getElementById("searchInput");
 const copyBrief = document.getElementById("copyBrief");
+const copyArtistBrief = document.getElementById("copyArtistBrief");
+
+const publicLaneLabels = new Map([
+  ["Proof Drop / Receipts", "Proofs & Receipts"],
+  ["DreamStar / Music", "Music & Performance"],
+  ["Droid OS / Agent Identity", "Agent & Character Ideas"],
+  ["WaveWarZ / Dashboard", "WaveWarZ & Dashboards"],
+  ["Social Nexus / Farcaster", "Farcaster & Social"],
+  ["Farcaster / Snapchain", "Farcaster & Snapchain"],
+  ["ZAO Governance / Fractal", "Governance & Fractals"],
+  ["IDE Tutorials / Vibe Coding", "IDE & Builder Tutorials"],
+]);
+
+function publicLane(value) {
+  return publicLaneLabels.get(value) || value;
+}
 
 function shortDate(value) {
   if (!value) return "unknown";
@@ -45,7 +61,7 @@ function renderSummary() {
       (lane) => `
         <article class="lane-card">
           <strong>${lane.count}</strong>
-          <span>${lane.label}</span>
+          <span>${publicLane(lane.label)}</span>
         </article>
       `,
     )
@@ -53,7 +69,7 @@ function renderSummary() {
 
   laneFilter.innerHTML = `
     <option value="all">All lanes</option>
-    ${state.scout.lane_recommendations.map((lane) => `<option value="${lane.label}">${lane.label}</option>`).join("")}
+    ${state.scout.lane_recommendations.map((lane) => `<option value="${lane.label}">${publicLane(lane.label)}</option>`).join("")}
   `;
 }
 
@@ -78,7 +94,7 @@ function renderRecordings() {
             <div class="meta">
               ${recording.matched_lanes
                 .slice(0, 5)
-                .map((lane) => `<span class="lane-chip">${lane.lane}</span>`)
+                .map((lane) => `<span class="lane-chip">${publicLane(lane.lane)}</span>`)
                 .join("")}
             </div>
             <p class="summary">${recording.summary || "No summary provided."}</p>
@@ -95,19 +111,42 @@ function renderRecordings() {
 }
 
 function buildBrief() {
-  return `Had an idea for making the ZABAL recording archive easier for builders to use.
-
-What if the archive also had a scout layer: search, lane filters, direct recording/YouTube/transcript links, and build prompts for July builders?
-
-I mocked up a first pass:
+  return `I mocked up a simple ZABAL Recording Scout:
 ${location.href}
+
+It helps builders search the workshop archive, filter by lane, open recordings/transcripts, and turn sessions into July build ideas.
 
 Current snapshot:
 - 30 recordings indexed
-- lanes for receipts/Proof Drop, music, video, WaveWarZ dashboards, Farcaster/Snapchain, governance, and IDE tutorials
+- public lanes for proofs, music, video, WaveWarZ dashboards, Farcaster/Snapchain, governance, and IDE tutorials
 - each session gets a quick "what could someone build from this?" angle
 
-Curious if this direction feels useful as a lightweight archive upgrade for ZABAL.`;
+I also added a Farcaster Artist Scout idea: find under-discovered artists/builders who fit ZABAL lanes, explain the fit, and keep outreach human-reviewed.
+
+Curious if this feels useful for ZABAL builders.`;
+}
+
+function buildArtistBrief() {
+  return `Farcaster Artist Scout idea for ZABAL:
+
+Use public Farcaster activity to find under-discovered artists, musicians, video makers, game builders, and culture people who could fit ZABAL Gamez.
+
+For each candidate, produce:
+- creator handle and public link
+- what they make
+- which ZABAL lane they fit
+- why they might care
+- suggested build prompt
+- human-reviewed invite copy
+
+Rules:
+- no bulk outreach
+- no fake praise
+- no auto-raids
+- no low-context tagging
+- keep it opt-in and useful
+
+Goal: help ZABAL discover new creators before they are obvious, then invite the right people into July build month.`;
 }
 
 async function init() {
@@ -133,6 +172,11 @@ async function init() {
   copyBrief.addEventListener("click", async () => {
     await navigator.clipboard.writeText(buildBrief());
     copyBrief.textContent = "Brief copied";
+  });
+
+  copyArtistBrief.addEventListener("click", async () => {
+    await navigator.clipboard.writeText(buildArtistBrief());
+    copyArtistBrief.textContent = "Artist plan copied";
   });
 }
 

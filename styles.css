@@ -179,6 +179,14 @@ button {
   cursor: pointer;
 }
 
+.secondary-button {
+  width: auto;
+  min-width: 220px;
+  margin-top: 18px;
+  color: var(--text);
+  background: rgba(255, 255, 255, 0.08);
+}
+
 .feature-panel {
   display: grid;
   grid-template-columns: minmax(0, 0.88fr) minmax(0, 1fr);
@@ -306,6 +314,14 @@ button {
   padding: 22px;
 }
 
+.next-panel h2 {
+  max-width: 820px;
+}
+
+.scout-grid {
+  margin-top: 18px;
+}
+
 ol {
   margin-bottom: 0;
   color: var(--muted);
@@ -334,5 +350,9 @@ li + li {
   .summary-grid,
   .fit-grid {
     grid-template-columns: 1fr;
+  }
+
+  .secondary-button {
+    width: 100%;
   }
 }

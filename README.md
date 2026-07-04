@@ -8,6 +8,7 @@ The app turns the ZABAL workshop index into a builder-facing opportunity board:
 - lane matching,
 - action recommendations,
 - direct links to recordings, YouTube, and transcripts.
+- a human-reviewed Farcaster artist scout concept for creator discovery.
 
 This is a public-safe standalone concept. It does not include private runtime, signer, memory, automation, or proprietary orchestration internals.
 
@@ -25,6 +26,12 @@ It maps workshops into practical lanes:
 - WaveWarZ / dashboard
 - ZAO governance / Fractal
 - IDE tutorials / vibe coding
+
+## Farcaster Artist Scout
+
+The app also includes a public-safe discovery concept for finding under-discovered Farcaster artists, musicians, video makers, game builders, and culture people who could fit ZABAL lanes.
+
+This stays human-reviewed: the scout suggests candidates, fit reasons, and invite copy, but does not perform bulk outreach or automated engagement.
 
 ## Source
 

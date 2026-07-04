@@ -6,12 +6,12 @@
     <title>ZABAL Recording Scout</title>
     <meta
       name="description"
-      content="A scout-board concept that maps ZABAL Gamez recordings to searchable lanes, direct links, and practical July build prompts."
+      content="Search ZABAL Gamez recordings by lane, open the source sessions, and find build ideas or Farcaster artists for July build month."
     />
     <meta property="og:title" content="ZABAL Recording Scout" />
     <meta
       property="og:description"
-      content="30 ZABAL recordings mapped into searchable builder lanes and practical build prompts."
+      content="Search ZABAL recordings, find useful sessions, and scout Farcaster artists for ZABAL Gamez."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://dreamnet-zabal-scout.pages.dev/" />
@@ -24,11 +24,11 @@
     <main>
       <section class="topbar" aria-label="Page header">
         <div>
-          <p class="eyebrow">ZABAL Gamez recording guide</p>
+          <p class="eyebrow">ZABAL Gamez builder guide</p>
           <h1>ZABAL Recording Scout</h1>
           <p class="lead">
-            Search the ZABAL workshop archive, filter by build lane, and find the recordings most likely
-            to help you ship something real during July build month.
+            Find the ZABAL sessions that match what you want to build. Search by topic, filter by lane,
+            open the recording or transcript, and turn workshop material into a shipped July artifact.
           </p>
         </div>
         <div class="status-card">
@@ -51,13 +51,13 @@
             <option value="all">All lanes</option>
           </select>
         </label>
-        <button id="copyBrief">Copy feedback note</button>
+        <button id="copyBrief">Copy share note</button>
       </section>
 
       <section class="feature-panel">
         <div>
           <p class="eyebrow">What It Does</p>
-          <h2>Turn the workshop archive into a faster path from watching to building.</h2>
+          <h2>Helps ZABAL builders decide what to watch, what to make, and who to invite next.</h2>
         </div>
         <div class="fit-grid">
           <div><strong>Watch</strong><span>recording, YouTube, and transcript links in one place</span></div>
@@ -65,7 +65,7 @@
           <div><strong>Build</strong><span>convert sessions into July artifact ideas</span></div>
           <div><strong>Share</strong><span>copy concise briefs for Discord, Farcaster, or team planning</span></div>
           <div><strong>Prioritize</strong><span>rank sessions by relevance instead of scrolling the full archive</span></div>
-          <div><strong>Focus</strong><span>choose the sessions most relevant to the build you want to ship</span></div>
+          <div><strong>Scout</strong><span>spot outside artists and creators who fit the ZABAL lanes</span></div>
         </div>
       </section>
 
@@ -78,6 +78,23 @@
           <span id="resultCount"></span>
         </div>
         <div class="recording-list" id="recordingList"></div>
+      </section>
+
+      <section class="next-panel">
+        <p class="eyebrow">Farcaster Artist Scout</p>
+        <h2>Find under-discovered creators who could bring new energy into ZABAL.</h2>
+        <p class="summary">
+          The next layer should scan public Farcaster activity for artists, musicians, video makers, game builders,
+          and culture people who already post work but may not know ZABAL exists yet. Keep it human-reviewed:
+          suggest creators, explain the fit, and let the team decide who to invite.
+        </p>
+        <div class="fit-grid scout-grid">
+          <div><strong>Signals</strong><span>original art, music, video, game clips, builds, frequent posting, real replies</span></div>
+          <div><strong>Fit Reasons</strong><span>which ZABAL lane they match and what kind of build they might ship</span></div>
+          <div><strong>Invite Copy</strong><span>short Farcaster replies or DMs written for a human to review first</span></div>
+          <div><strong>Do Not Spam</strong><span>no bulk outreach, no fake praise, no auto-raids, no low-context tagging</span></div>
+        </div>
+        <button id="copyArtistBrief" class="secondary-button">Copy artist scout plan</button>
       </section>
 
       <section class="next-panel">
