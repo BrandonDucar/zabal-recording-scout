@@ -1,0 +1,10 @@
+{
+  "name": "zabal-recording-scout",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "python -m http.server 4177",
+    "build": "node -e \"console.log('static app: no build step')\""
+  }
+}

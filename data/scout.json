@@ -1,0 +1,1038 @@
+{
+  "schema": "dreamnet.zabal.recording_scout.v0",
+  "generated_at": "2026-07-04T21:26:39.291Z",
+  "source": {
+    "url": "https://zabalgamez.com/recordings/index.json",
+    "generated": "2026-06-30",
+    "season": 1,
+    "count": 30
+  },
+  "top_recordings": [
+    {
+      "title": "ZABAL GAMEZ Workshop w/Dan Singjoy from Eden Fractal",
+      "presenter": "Dan Singjoy",
+      "handle": "@dansingjoy",
+      "org": "Eden Fractal",
+      "track": "builder",
+      "date": "2026-06-20",
+      "score": 17,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "build",
+            "claim"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "DreamStar / Music",
+          "hits": [
+            "music",
+            "musician"
+          ],
+          "action": "Turn the session into a song prompt, visualizer idea, or music-on-Farcaster tactic."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "ai"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "WaveWarZ / Dashboard",
+          "hits": [
+            "token"
+          ],
+          "action": "Suggest one metric or visualization beyond cumulative volume."
+        },
+        {
+          "lane": "ZAO Governance / Fractal",
+          "hits": [
+            "fractal",
+            "governance",
+            "consensus",
+            "respect",
+            "community",
+            "decision",
+            "peer"
+          ],
+          "action": "Map the session to quorum, badges, or verified contribution flows."
+        },
+        {
+          "lane": "IDE Tutorials / Vibe Coding",
+          "hits": [
+            "builder"
+          ],
+          "action": "Turn the session into an IDE tutorial or builder workflow video."
+        }
+      ],
+      "summary": "Dan Singjoy, founder of Eden Fractal, breaks down the fractal ecosystem - a way for communities to make decisions together that are fair, fast, and fun, using Respect earned through weekly contributions and peer consensus. Dan shares his path from musician to building onchain, founding Eden Fractal and the Eden Creators media studio, and the Optimism Fractal origins where he and Zaal first met. He walks through how a weekly fractal runs, the tripartite governance model, claiming Respect onchain, and how ZAO Fractal now runs itself with as few as four people. It closes on a token-gated Fractal browser idea for community spaces.",
+      "topics": [
+        "Eden Fractal",
+        "fractals",
+        "Respect",
+        "governance",
+        "Optimism",
+        "ZAO Fractal"
+      ],
+      "takeaways": [
+        "A fractal makes group decisions fair, fast, and fun - Respect earned through weekly contributions and peer consensus.",
+        "Respect is soulbound and illiquid - tied to governance, not tradable.",
+        "ZAO Fractal now runs itself with as few as four people, no host needed.",
+        "Respect unlocks governance, funding, and role allocation - not just a score.",
+        "A token-gated Fractal browser could give a community its own gated workspace."
+      ],
+      "page": "https://zabalgamez.com/recordings/16",
+      "youtube": "https://youtu.be/drT2zp_V-tc",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-20-dan-singjoy-eden-fractal.md"
+    },
+    {
+      "title": "ZAO Fractal Weekly Introduction Presentation",
+      "presenter": "Zaal",
+      "handle": "@zaal",
+      "org": "The ZAO",
+      "track": "builder",
+      "date": "2026-06-01",
+      "score": 15,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "build",
+            "submit"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "DreamStar / Music",
+          "hits": [
+            "artist"
+          ],
+          "action": "Turn the session into a song prompt, visualizer idea, or music-on-Farcaster tactic."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "ai"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "WaveWarZ / Dashboard",
+          "hits": [
+            "token",
+            "artist"
+          ],
+          "action": "Suggest one metric or visualization beyond cumulative volume."
+        },
+        {
+          "lane": "ZAO Governance / Fractal",
+          "hits": [
+            "fractal",
+            "governance",
+            "consensus",
+            "respect",
+            "community",
+            "peer"
+          ],
+          "action": "Map the session to quorum, badges, or verified contribution flows."
+        },
+        {
+          "lane": "IDE Tutorials / Vibe Coding",
+          "hits": [
+            "builder"
+          ],
+          "action": "Turn the session into an IDE tutorial or builder workflow video."
+        }
+      ],
+      "summary": "Zaal's weekly introduction to the ZAO Fractal, framed as the first ZAO project you can build on. He covers what the ZAO is - a decentralized impact network for the creator economy, the Z Talent Artist Organization - and how it runs on soulbound, illiquid ZAO Respect earned weekly through peer consensus. He walks the four objectives (empowerment, transparency, sustainability, equitable distribution) and the Respect game itself: breakout groups of up to six, four-minute updates, then on-chain consensus. The ZAO Fractal meets weekly at 6pm Eastern at discord.theZAO.com.",
+      "topics": [
+        "ZAO Fractal",
+        "ZAO Respect",
+        "soulbound tokens",
+        "peer consensus",
+        "governance",
+        "onboarding",
+        "creator economy"
+      ],
+      "takeaways": [
+        "The ZAO is a decentralized impact network for the creator economy, governed by soulbound, illiquid ZAO Respect earned weekly through peer consensus - not bought.",
+        "Four objectives anchor it: empowerment, transparency, sustainability, equitable distribution.",
+        "The Respect game: groups of up to six share four-minute updates, then rank by consensus (level six down to one), submitted on chain.",
+        "Five ways to contribute: contributions, collaborations, innovations, onboarding, and supporting community members.",
+        "Meets weekly, 6pm Eastern at discord.theZAO.com - turning your camera on earns an extra ten ZAO Respect."
+      ],
+      "page": "https://zabalgamez.com/recordings/zao/1",
+      "youtube": "https://youtu.be/N6tgsuBOXBU",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-01-zao-fractal-zaal.md"
+    },
+    {
+      "title": "ZABAL GAMEZ Workshop w/AZKAL from FlowStage",
+      "presenter": "AZKAL",
+      "handle": null,
+      "org": "FlowStage",
+      "track": "artist",
+      "date": "2026-06-28",
+      "score": 14,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "build"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "DreamStar / Music",
+          "hits": [
+            "artist",
+            "audio",
+            "flowstage"
+          ],
+          "action": "Turn the session into a song prompt, visualizer idea, or music-on-Farcaster tactic."
+        },
+        {
+          "lane": "Remotion / Video",
+          "hits": [
+            "video",
+            "short-form",
+            "slideshows",
+            "flowstage"
+          ],
+          "action": "Turn the session into a 45-60 second video template or clip idea."
+        },
+        {
+          "lane": "Farcaster / Snapchain",
+          "hits": [
+            "farcaster"
+          ],
+          "action": "Map the session to our Farcaster/Snapchain social and Droid OS lanes."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "ai"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "WaveWarZ / Dashboard",
+          "hits": [
+            "artist"
+          ],
+          "action": "Suggest one metric or visualization beyond cumulative volume."
+        },
+        {
+          "lane": "IDE Tutorials / Vibe Coding",
+          "hits": [
+            "builder"
+          ],
+          "action": "Turn the session into an IDE tutorial or builder workflow video."
+        }
+      ],
+      "summary": "AZKAL on building FlowStage - how to scale your content without losing your taste. FlowStage turns your own footage and audio into short-form videos and slideshows, organized by aesthetic, with no generative AI. A session for artists and creators, with a live demo and a look at how builders can plug into the FlowStage API.",
+      "topics": [
+        "FlowStage",
+        "Short-form video",
+        "Content tools",
+        "Creator tools",
+        "Farcaster"
+      ],
+      "takeaways": [
+        "Building FlowStage - scaling your content without handing your taste to a generative model.",
+        "Short-form videos and slideshows built from your own footage and audio, organized by aesthetic.",
+        "No generative AI - the output stays yours.",
+        "How builders can plug into the FlowStage API, plus a live demo."
+      ],
+      "page": "https://zabalgamez.com/recordings/27",
+      "youtube": "https://youtu.be/U_Eubs-2_Yo",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-28-building-flowstage.md"
+    },
+    {
+      "title": "ZABAL GAMEZ Workshop w/James from Mental Wealth Academy",
+      "presenter": "James",
+      "handle": "jamesdesign.eth",
+      "org": "Mental Wealth Academy",
+      "track": null,
+      "date": "2026-06-27",
+      "score": 14,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "build"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "DreamStar / Music",
+          "hits": [
+            "music",
+            "artist",
+            "sound"
+          ],
+          "action": "Turn the session into a song prompt, visualizer idea, or music-on-Farcaster tactic."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "agent",
+            "npc",
+            "ai",
+            "learn-to-earn",
+            "privy",
+            "education"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "WaveWarZ / Dashboard",
+          "hits": [
+            "artist"
+          ],
+          "action": "Suggest one metric or visualization beyond cumulative volume."
+        },
+        {
+          "lane": "ZAO Governance / Fractal",
+          "hits": [
+            "community"
+          ],
+          "action": "Map the session to quorum, badges, or verified contribution flows."
+        }
+      ],
+      "summary": "James from Mental Wealth Academy - an artist, psychologist, and scientist - walks through the learn-to-earn game world he is building, where people earn while they learn. He gets into the platform itself (blockchain accounts via Privy, diamond points, agentic NPC characters) and the bigger idea behind it: the democratization of education the same way SoundCloud democratized music. Instead of $30k tuition, invest a fraction into a community and a system and gain access to bright minds.",
+      "topics": [
+        "What Mental Wealth Academy is",
+        "Learn-to-earn game world",
+        "Privy accounts and diamond points",
+        "Democratization of education",
+        "Building your own brand into Web3"
+      ],
+      "takeaways": [],
+      "page": "https://zabalgamez.com/recordings/29",
+      "youtube": "https://youtu.be/eVNfCtngLeU",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-27-james-mental-wealth-academy.md"
+    },
+    {
+      "title": "ZABAL GAMEZ Workshop w/diviflyy from Empire Builder",
+      "presenter": "Adrian (diviflyy)",
+      "handle": "@diviflyy",
+      "org": "Empire Builder",
+      "track": "builder",
+      "date": "2026-06-16",
+      "score": 14,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "build",
+            "public"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "Farcaster / Snapchain",
+          "hits": [
+            "farcaster",
+            "mini app"
+          ],
+          "action": "Map the session to our Farcaster/Snapchain social and Droid OS lanes."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "agent",
+            "bot",
+            "ai"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "WaveWarZ / Dashboard",
+          "hits": [
+            "token",
+            "leaderboard"
+          ],
+          "action": "Suggest one metric or visualization beyond cumulative volume."
+        },
+        {
+          "lane": "ZAO Governance / Fractal",
+          "hits": [
+            "community"
+          ],
+          "action": "Map the session to quorum, badges, or verified contribution flows."
+        },
+        {
+          "lane": "IDE Tutorials / Vibe Coding",
+          "hits": [
+            "builder"
+          ],
+          "action": "Turn the session into an IDE tutorial or builder workflow video."
+        }
+      ],
+      "summary": "Adrian (diviflyy), co-founder and lead engineer of Empire Builder, goes under the hood of Empire Builder V3 - the docs at empirebuilder.world, the public free-to-use endpoints, and how to pull leaderboards, rankings, boosters, and reward data into your own apps. Empire Builder is the community-layer framework for any project, token-based or tokenless. Live, Adrian builds a Zabal Empire mini app in about an hour using the Empire Builder skill plus a free Farcaster data source - surfacing rewards, rankings, and boosters under your own brand. He covers getting your empire ID, the endpoint set, and where it is heading: multiple treasuries, more chains, and agent bots that run an empire. Plus build ideas for the ZABAL Gamez hackathon.",
+      "topics": [
+        "Empire Builder",
+        "leaderboards",
+        "boosters",
+        "mini apps",
+        "Farcaster",
+        "API"
+      ],
+      "takeaways": [
+        "Empire Builder is a community-layer framework for any project, token-based or tokenless.",
+        "The public, free-to-use endpoints surface top empires, boosters, distributions, and leaderboards - no key needed.",
+        "Your empire ID is your token address, or an address-based identifier for tokenless empires.",
+        "You can build a branded rewards mini app in about an hour with the Empire Builder skill and an AI assistant.",
+        "Big build ideas: a tag-to-query empire bot, an Empire Draft game, and one-shot tokenless empire deploys."
+      ],
+      "page": "https://zabalgamez.com/recordings/14",
+      "youtube": "https://youtu.be/P4ypb4jvpog",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-16-diviflyy-empire-builder-v3-api.md"
+    },
+    {
+      "title": "The Farcaster protocol, ins and outs",
+      "presenter": "Cassie",
+      "handle": "@cassie",
+      "org": "Quilibrium",
+      "track": "builder",
+      "date": "2026-06-12",
+      "score": 14,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "build"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "Farcaster / Snapchain",
+          "hits": [
+            "farcaster",
+            "snapchain",
+            "neynar",
+            "signers",
+            "mini app",
+            "protocol",
+            "channels"
+          ],
+          "action": "Map the session to our Farcaster/Snapchain social and Droid OS lanes."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "ai"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "WaveWarZ / Dashboard",
+          "hits": [
+            "token"
+          ],
+          "action": "Suggest one metric or visualization beyond cumulative volume."
+        },
+        {
+          "lane": "ZAO Governance / Fractal",
+          "hits": [
+            "consensus"
+          ],
+          "action": "Map the session to quorum, badges, or verified contribution flows."
+        },
+        {
+          "lane": "IDE Tutorials / Vibe Coding",
+          "hits": [
+            "builder"
+          ],
+          "action": "Turn the session into an IDE tutorial or builder workflow video."
+        }
+      ],
+      "summary": "Cassie (Cassandra Heart, founder of Quilibrium and a contributor to Farcaster) gives a deep, candid tour of the Farcaster protocol: what 'sufficiently decentralized' really meant, the hubs era and its scaling limits, and the rewrite into Snapchain. She lays out the two centralization problems (the validator set, controlled mostly by Neynar; and the fact that you can't build a real client straight off Snapchain), then walks through her Hypersnap fork as an additive side chain: threshold ECDSA via MPC, the Snap token and gasless bridging, consensus (Malachite/Tendermint, one-second blocks and the speed-of-light limit), the external OP Mainnet contracts (ID, storage, key, FNAME registries), gasless signers, spam/trust scoring, and the roadmap. Closes with the five North Stars for getting Farcaster to a million daily actives - chief among them, making it possible to build a client in a weekend.",
+      "topics": [
+        "Farcaster protocol",
+        "Snapchain",
+        "Hypersnap",
+        "building a client",
+        "Snap token",
+        "gasless signers",
+        "consensus",
+        "decentralization"
+      ],
+      "takeaways": [
+        "Farcaster's data layer, Snapchain, is a real shard-based BFT blockchain; its validator set is mostly Neynar today, which is the live centralization question.",
+        "You can't build a meaningful client straight off Snapchain - you need your own indexer and backend. Making a weekend-buildable client is the top goal.",
+        "Hypersnap is an additive side chain: threshold ECDSA via MPC, the Snap token, and gasless bridging to any EVM chain, without breaking Snapchain.",
+        "External anchors matter: the OP Mainnet ID/storage/key/FNAME registries, and the new gasless signers (cost-free revoke/add) born from a real signer-compromise incident.",
+        "The five North Stars: a real query layer (done), a template+SDK for clients, channels/curation as first-class, mini app discovery at the protocol level, and native monetization."
+      ],
+      "page": "https://zabalgamez.com/recordings/9",
+      "youtube": "https://youtu.be/FZxzc2ieT4w",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-12-cassie-farcaster-protocol.md"
+    },
+    {
+      "title": "Building Sopha, and why curation is needed",
+      "presenter": "Chris (chriscocreated)",
+      "handle": "@chriscocreated",
+      "org": "Sopha",
+      "track": "builder",
+      "date": "2026-06-08",
+      "score": 14,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "build"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "DreamStar / Music",
+          "hits": [
+            "artist"
+          ],
+          "action": "Turn the session into a song prompt, visualizer idea, or music-on-Farcaster tactic."
+        },
+        {
+          "lane": "Farcaster / Snapchain",
+          "hits": [
+            "farcaster",
+            "neynar",
+            "mini app"
+          ],
+          "action": "Map the session to our Farcaster/Snapchain social and Droid OS lanes."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "ai"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "WaveWarZ / Dashboard",
+          "hits": [
+            "token",
+            "artist"
+          ],
+          "action": "Suggest one metric or visualization beyond cumulative volume."
+        },
+        {
+          "lane": "ZAO Governance / Fractal",
+          "hits": [
+            "community"
+          ],
+          "action": "Map the session to quorum, badges, or verified contribution flows."
+        },
+        {
+          "lane": "IDE Tutorials / Vibe Coding",
+          "hits": [
+            "coding",
+            "vibe",
+            "builder"
+          ],
+          "action": "Turn the session into an IDE tutorial or builder workflow video."
+        }
+      ],
+      "summary": "A ZABAL Gamez workshop with Chris (chriscocreated), founder of Sopha - a Farcaster client built for depth and high signal - on what he built and why curation is needed. Sopha is an intentional third place, a coffee shop or library for the deeper writing, art, and thinking that scrolls past on the main feed, with a curated feed kept by the community's curators plus BradQ's The Pulse. Chris traces why he built it (when Farcaster felt like it was tipping into meme coins, he set out to protect the culture of interesting thinkers, and good vibe coding made him the one to do it), how easy it now is to build your own client on Farcaster's open data with Neynar and Hypersnap, and the nested stack of client, mini apps, and Snaps. He closes on where Sopha is headed: a second round of Purple funding, experiments in rewarding curators, infra, and live cultural-center experiences, with a thoughtfully designed, non-extractive token only when the time is right.",
+      "topics": [
+        "Sopha",
+        "curation",
+        "Farcaster clients",
+        "high signal",
+        "third place",
+        "build your own client",
+        "Neynar",
+        "mini apps and Snaps"
+      ],
+      "takeaways": [
+        "Curation is the point - Sopha is a Farcaster client for depth, an intentional third place for high-signal writing and art, not a replacement for the daily feed.",
+        "Building your own client is now a few hours of work: Farcaster's open data plus Neynar (and Hypersnap) let anyone shape their own view.",
+        "You are not beholden to the algorithm - you build your own lens. That is the unlock for artists, writers, and creators.",
+        "The nested stack: a client is just a website showing Farcaster data; below it sit mini apps, and Snaps you can spin up in seconds.",
+        "The feed is curated by community curators (earn the role by showing taste), and BradQ runs a dedicated Pulse feed.",
+        "Sopha's next year (a second Purple round): reward curators, cover infra, run live cultural-center experiences, and design any token carefully and non-extractively.",
+        "Find it: @chriscocreated and @sopha on Farcaster, sopha.social."
+      ],
+      "page": "https://zabalgamez.com/recordings/5",
+      "youtube": "https://youtu.be/Z9yAFxUVW-g",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-08-sopha-chris-building-curation.md"
+    },
+    {
+      "title": "POIDH: the open bounty protocol",
+      "presenter": "Kenny",
+      "handle": "@kenny",
+      "org": "POIDH",
+      "track": "builder",
+      "date": "2026-06-15",
+      "score": 13,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "poidh",
+            "build",
+            "submit",
+            "claim"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "Farcaster / Snapchain",
+          "hits": [
+            "farcaster",
+            "protocol"
+          ],
+          "action": "Map the session to our Farcaster/Snapchain social and Droid OS lanes."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "ai"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "WaveWarZ / Dashboard",
+          "hits": [
+            "leaderboard"
+          ],
+          "action": "Suggest one metric or visualization beyond cumulative volume."
+        },
+        {
+          "lane": "IDE Tutorials / Vibe Coding",
+          "hits": [
+            "builder",
+            "repo"
+          ],
+          "action": "Turn the session into an IDE tutorial or builder workflow video."
+        }
+      ],
+      "summary": "Kenny, founder of POIDH, breaks down the open bounty protocol he built - put a bounty on-chain, transparently, and anyone can fund it, add to it, or claim it. The throughline: POIDH is a protocol, not just an app. poidh.xyz is the most popular front end, but anyone can build their own - NARS DAO launched an alternate front end the morning of the session. Zaal walks through running real bounties: the Best ZABAL Gamez Ad bounty with 8 submissions, a submitters board that queries the contract directly with an AI-judged rubric, and rewarding every submitter through an Empire Builder leaderboard. Kenny shows composability in action - Femi shipped an NFT marketplace MVP in 90 minutes off the open-source repo - then creates a new bounty live: the ZABAL Gamez Open Pot, open through July.",
+      "topics": [
+        "POIDH",
+        "bounty protocol",
+        "on-chain bounties",
+        "composability",
+        "Empire Builder",
+        "Farcaster",
+        "Base"
+      ],
+      "takeaways": [
+        "POIDH is a protocol, not an app - anyone can build a front end on the same contracts, like NARS DAO did.",
+        "Open bounties let anyone add funds on top; deadlines plus single-winner curation surface real value over money-grabbers.",
+        "Composability compounds: Femi built an NFT marketplace MVP in 90 minutes from the open repo, and Vini App added POIDH the same week.",
+        "Good bounties carry maximum context - a pre-cleared brand kit, a clear rubric, a markdown description.",
+        "You can reward every participant programmatically through an Empire Builder leaderboard, not just the winner."
+      ],
+      "page": "https://zabalgamez.com/recordings/12",
+      "youtube": "https://youtu.be/EdfMN-lRI4E",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-15-kenny-poidh.md"
+    },
+    {
+      "title": "Owning your music as an independent artist",
+      "presenter": "Joseph Goats",
+      "handle": "@joseacabrerav",
+      "org": null,
+      "track": "artist",
+      "date": "2026-06-09",
+      "score": 13,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "proof"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "DreamStar / Music",
+          "hits": [
+            "music",
+            "musician",
+            "artist",
+            "song"
+          ],
+          "action": "Turn the session into a song prompt, visualizer idea, or music-on-Farcaster tactic."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "ai",
+            "education"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "WaveWarZ / Dashboard",
+          "hits": [
+            "artist"
+          ],
+          "action": "Suggest one metric or visualization beyond cumulative volume."
+        },
+        {
+          "lane": "ZAO Governance / Fractal",
+          "hits": [
+            "fractal",
+            "community",
+            "peer"
+          ],
+          "action": "Map the session to quorum, badges, or verified contribution flows."
+        }
+      ],
+      "summary": "An artist-track conversation with Joseph Goats (Jose Cabrera), a Venezuelan musician who has built a music life out of internet tools when there was no local industry to plug into - and, in 2017, not even a bank card. His model is what he calls digital street music: he plays for free, peer-to-peer, so anyone anywhere can support him directly. He traces the journey from discovering blockchain contests on Steemit (later Hive), to learning English along the way, to running impact concerts with Izzy and reimagining festivals for social impact and education. A wide-ranging talk on decentralization as a fractal - everyone has a fingerprint and something to say - on musicians as the bards who connect one community to the next, and on aligning music with nature and biology (Humberto Maturana and autopoiesis). He closes by playing a song.",
+      "topics": [
+        "independent artists",
+        "digital street music",
+        "peer-to-peer",
+        "decentralization",
+        "fractals",
+        "Steemit and Hive",
+        "learning English",
+        "impact concerts",
+        "festivals for social impact",
+        "autopoiesis",
+        "Venezuela",
+        "music and nature"
+      ],
+      "takeaways": [
+        "Digital street music: Jose plays for free, peer-to-peer, so anyone anywhere can support him directly - a model that worked when his country had no music infrastructure and, in 2017, no bank cards at all.",
+        "Decentralization as a fractal - everyone has a fingerprint and something to say, and the tools let each person create their own space and connect it to others. The real problem decentralization has to solve is fragmentation.",
+        "He entered through writing and blockchain contests (Steemit, later Hive), and watched the community fork Hive after a hostile takeover - proof that a community can branch and keep going.",
+        "Musicians as bards and nodes: the role of the artist is to travel between communities, vouch for people, and bring them together - turning a peer-to-peer connection into a real-world visit, tour, or festival.",
+        "He wants music aligned with nature and biology (Humberto Maturana, autopoiesis), so a song can carry knowledge to anyone regardless of titles - and the work that matters is reimagining festivals for social impact and education."
+      ],
+      "page": "https://zabalgamez.com/recordings/6",
+      "youtube": "https://youtu.be/xZyrEeKQEz0",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-09-joseph-goats-digital-street-music.md"
+    },
+    {
+      "title": "ZABAL GAMEZ Workshop w/Matt Lee from Tortoise",
+      "presenter": "Matt Lee",
+      "handle": "@mattlee",
+      "org": "Tortoise",
+      "track": "builder",
+      "date": "2026-06-28",
+      "score": 12,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "build"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "DreamStar / Music",
+          "hits": [
+            "music",
+            "musician",
+            "artist",
+            "sound"
+          ],
+          "action": "Turn the session into a song prompt, visualizer idea, or music-on-Farcaster tactic."
+        },
+        {
+          "lane": "Farcaster / Snapchain",
+          "hits": [
+            "farcaster"
+          ],
+          "action": "Map the session to our Farcaster/Snapchain social and Droid OS lanes."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "bot"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "WaveWarZ / Dashboard",
+          "hits": [
+            "artist"
+          ],
+          "action": "Suggest one metric or visualization beyond cumulative volume."
+        },
+        {
+          "lane": "IDE Tutorials / Vibe Coding",
+          "hits": [
+            "builder",
+            "software"
+          ],
+          "action": "Turn the session into an IDE tutorial or builder workflow video."
+        }
+      ],
+      "summary": "Matt Lee on Tortoise, and how musicians and creators can best use Farcaster. A musician and software engineer, he came up through the music industry and live sound before teaching himself to build, and got into crypto chasing one question - how to make a music industry where artists own and earn from their work. A hands-on look at building on Farcaster, finding your ideal user, and his snap bot.",
+      "topics": [
+        "Tortoise",
+        "Music on Farcaster",
+        "Building on Farcaster",
+        "Creator economy",
+        "Farcaster"
+      ],
+      "takeaways": [
+        "Owning digital media as the key to a healthier music industry - where that idea came from and why it matters.",
+        "Tortoise: giving musicians a place to build and grow on Farcaster.",
+        "Building on Farcaster - who your ideal user is, and what carries over for anyone building next.",
+        "A look at his snap bot."
+      ],
+      "page": "https://zabalgamez.com/recordings/28",
+      "youtube": "https://youtu.be/kbUZIRBM2Gw",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-28-matt-lee-tortoise.md"
+    },
+    {
+      "title": "ZABAL GAMEZ Workshop w/topocount from Neynar",
+      "presenter": "topocount",
+      "handle": "@topocount.eth",
+      "org": "Neynar",
+      "track": "builder",
+      "date": "2026-06-23",
+      "score": 11,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "build"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "Farcaster / Snapchain",
+          "hits": [
+            "farcaster",
+            "snapchain",
+            "neynar",
+            "signers",
+            "protocol",
+            "channels"
+          ],
+          "action": "Map the session to our Farcaster/Snapchain social and Droid OS lanes."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "ai"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "IDE Tutorials / Vibe Coding",
+          "hits": [
+            "builder"
+          ],
+          "action": "Turn the session into an IDE tutorial or builder workflow video."
+        }
+      ],
+      "summary": "topocount from Neynar goes under the hood of Snapchain, the storage and signing layer behind Farcaster - how Snapchain signers work, OG signers vs Snapchain-native signers, how storage is structured, the move to bring more of the Farcaster client (channels, blocks) onto the protocol, and where Snapchain is headed. Built for developers who want the behind-the-hood view of Farcaster infrastructure.",
+      "topics": [
+        "Snapchain",
+        "Farcaster protocol",
+        "Neynar",
+        "Signers",
+        "Rust",
+        "Clients"
+      ],
+      "takeaways": [
+        "Snapchain is the open social backend of Farcaster - it accepts every cast, like, and follow and distributes them to all clients, and anyone can inspect or build on it.",
+        "How Snapchain signers work, and the difference between OG signers and Snapchain-native signers.",
+        "The plan to move more of what lives in the Farcaster client - channels, blocks - onto the protocol, so other clients can build on it.",
+        "topocount's path from smart-contract / EVM engineer to working on Snapchain itself in Rust at Neynar."
+      ],
+      "page": "https://zabalgamez.com/recordings/24",
+      "youtube": "https://youtu.be/lv70ErBQopY",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-23-snapchain-under-the-hood.md"
+    },
+    {
+      "title": "Non-Dev to Shipped: building Baraza Protocol with AI tools",
+      "presenter": "Aziz (MotoMoto)",
+      "handle": "@azizke",
+      "org": "Build Africa DAO",
+      "track": "builder",
+      "date": "2026-06-14",
+      "score": 11,
+      "primary_lane": "Proof Drop / Receipts",
+      "matched_lanes": [
+        {
+          "lane": "Proof Drop / Receipts",
+          "hits": [
+            "build",
+            "public"
+          ],
+          "action": "Convert the session into a receipt/checklist template for July builders."
+        },
+        {
+          "lane": "Farcaster / Snapchain",
+          "hits": [
+            "protocol"
+          ],
+          "action": "Map the session to our Farcaster/Snapchain social and Droid OS lanes."
+        },
+        {
+          "lane": "Droid OS / Agent Identity",
+          "hits": [
+            "ai",
+            "education"
+          ],
+          "action": "Extract agent onboarding, education, or community-role lessons."
+        },
+        {
+          "lane": "IDE Tutorials / Vibe Coding",
+          "hits": [
+            "coding",
+            "ai tooling",
+            "vibe",
+            "builder"
+          ],
+          "action": "Turn the session into an IDE tutorial or builder workflow video."
+        }
+      ],
+      "summary": "A ZABAL Gamez session with Aziz (MotoMoto) of Build Africa DAO. Coming from media and production with no coding background, he built Baraza Protocol by directing AI tools - a mobile-first, no-jargon platform for the savings groups and cooperatives across Africa (chamas, SACCOs, stokvels) to run on-chain, plus Baraza TV, a decentralized broadcast layer. He traces the path from a non-technical-founders hackathon (40 dollars, 72 hours, Claude and ChatGPT) to a working build, why he put mobile and accessibility first (M-PESA, USSD, zero blockchain jargon), and his advice for non-coders: know the problem you can identify with, write the PRD that answers the real questions, then just ship and build in public.",
+      "topics": [
+        "Non-Dev to Shipped",
+        "vibe coding",
+        "Build Africa DAO",
+        "Baraza Protocol",
+        "chamas and SACCOs",
+        "mobile-first",
+        "M-PESA",
+        "Baraza TV",
+        "building in public",
+        "Africa",
+        "AI tooling"
+      ],
+      "takeaways": [
+        "You do not need to be a coder. Aziz came from media and production, spent about 40 dollars on Claude and ChatGPT, and shipped a working build in a 72-hour hackathon for non-technical founders.",
+        "Build for the people who will actually use it. If his mother or someone without formal education cannot use it, it does not work - so Baraza Protocol is mobile-first, runs on M-PESA and USSD, and hides all the blockchain jargon.",
+        "Meet existing communities where they are. Chamas, SACCOs, and stokvels already run on a black book; the goal is to do business with them, not change how they do business.",
+        "Sell the experience, not the technology. Like mobile money and Coca-Cola, adoption comes from the experience and the value, not from the word crypto.",
+        "For non-coders building with AI: know the problem you can identify with, write the PRD that answers the real questions first, then just ship and build in public. Time in planning saves five times the time in execution."
+      ],
+      "page": "https://zabalgamez.com/recordings/11",
+      "youtube": "https://youtu.be/MAzecp9zVWA",
+      "transcript_raw": "https://zabalgamez.com/data/streams/zabal-games-workshops/raw/transcripts/2026-06-14-aziz-motomoto-baraza.md"
+    }
+  ],
+  "lane_recommendations": [
+    {
+      "id": "proof_drop",
+      "label": "Proof Drop / Receipts",
+      "count": 28,
+      "examples": [
+        "ZABAL GAMEZ Workshop w/Dan Singjoy from Eden Fractal",
+        "ZAO Fractal Weekly Introduction Presentation",
+        "ZABAL GAMEZ Workshop w/AZKAL from FlowStage",
+        "ZABAL GAMEZ Workshop w/James from Mental Wealth Academy",
+        "ZABAL GAMEZ Workshop w/diviflyy from Empire Builder"
+      ],
+      "action": "Convert the session into a receipt/checklist template for July builders."
+    },
+    {
+      "id": "dreamstar",
+      "label": "DreamStar / Music",
+      "count": 13,
+      "examples": [
+        "ZABAL GAMEZ Workshop w/Dan Singjoy from Eden Fractal",
+        "ZAO Fractal Weekly Introduction Presentation",
+        "ZABAL GAMEZ Workshop w/AZKAL from FlowStage",
+        "ZABAL GAMEZ Workshop w/James from Mental Wealth Academy",
+        "Building Sopha, and why curation is needed"
+      ],
+      "action": "Turn the session into a song prompt, visualizer idea, or music-on-Farcaster tactic."
+    },
+    {
+      "id": "remotion_video",
+      "label": "Remotion / Video",
+      "count": 3,
+      "examples": [
+        "ZABAL GAMEZ Workshop w/AZKAL from FlowStage",
+        "Building KFMEDIA",
+        "ZABAL GAMEZ Workshop w/Dylan Yarter from BizarreBeasts"
+      ],
+      "action": "Turn the session into a 45-60 second video template or clip idea."
+    },
+    {
+      "id": "farcaster_snapchain",
+      "label": "Farcaster / Snapchain",
+      "count": 16,
+      "examples": [
+        "ZABAL GAMEZ Workshop w/AZKAL from FlowStage",
+        "ZABAL GAMEZ Workshop w/diviflyy from Empire Builder",
+        "The Farcaster protocol, ins and outs",
+        "Building Sopha, and why curation is needed",
+        "POIDH: the open bounty protocol"
+      ],
+      "action": "Map the session to our Farcaster/Snapchain social and Droid OS lanes."
+    },
+    {
+      "id": "droid_os",
+      "label": "Droid OS / Agent Identity",
+      "count": 24,
+      "examples": [
+        "ZABAL GAMEZ Workshop w/Dan Singjoy from Eden Fractal",
+        "ZAO Fractal Weekly Introduction Presentation",
+        "ZABAL GAMEZ Workshop w/AZKAL from FlowStage",
+        "ZABAL GAMEZ Workshop w/James from Mental Wealth Academy",
+        "ZABAL GAMEZ Workshop w/diviflyy from Empire Builder"
+      ],
+      "action": "Extract agent onboarding, education, or community-role lessons."
+    },
+    {
+      "id": "wavewarz_dashboard",
+      "label": "WaveWarZ / Dashboard",
+      "count": 19,
+      "examples": [
+        "ZABAL GAMEZ Workshop w/Dan Singjoy from Eden Fractal",
+        "ZAO Fractal Weekly Introduction Presentation",
+        "ZABAL GAMEZ Workshop w/AZKAL from FlowStage",
+        "ZABAL GAMEZ Workshop w/James from Mental Wealth Academy",
+        "ZABAL GAMEZ Workshop w/diviflyy from Empire Builder"
+      ],
+      "action": "Suggest one metric or visualization beyond cumulative volume."
+    },
+    {
+      "id": "zao_governance",
+      "label": "ZAO Governance / Fractal",
+      "count": 12,
+      "examples": [
+        "ZABAL GAMEZ Workshop w/Dan Singjoy from Eden Fractal",
+        "ZAO Fractal Weekly Introduction Presentation",
+        "ZABAL GAMEZ Workshop w/James from Mental Wealth Academy",
+        "ZABAL GAMEZ Workshop w/diviflyy from Empire Builder",
+        "The Farcaster protocol, ins and outs"
+      ],
+      "action": "Map the session to quorum, badges, or verified contribution flows."
+    },
+    {
+      "id": "ide_tutorials",
+      "label": "IDE Tutorials / Vibe Coding",
+      "count": 24,
+      "examples": [
+        "ZABAL GAMEZ Workshop w/Dan Singjoy from Eden Fractal",
+        "ZAO Fractal Weekly Introduction Presentation",
+        "ZABAL GAMEZ Workshop w/AZKAL from FlowStage",
+        "ZABAL GAMEZ Workshop w/diviflyy from Empire Builder",
+        "The Farcaster protocol, ins and outs"
+      ],
+      "action": "Turn the session into an IDE tutorial or builder workflow video."
+    }
+  ],
+  "next_actions": [
+    "Study the Tortoise, FlowStage, AI music, Snapchain, Eden Fractal, and Meta Mu sessions first.",
+    "Turn the top sessions into a Proof Drop / Remotion / DreamStar contribution menu for Zaal.",
+    "Build a WaveWarZ dashboard concept one-pager before touching any external repo.",
+    "Record the first IDE setup video as a separate ZABAL Creator or Builder artifact."
+  ]
+}

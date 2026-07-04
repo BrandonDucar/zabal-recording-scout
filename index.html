@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ZABAL Recording Scout | DreamNet</title>
+    <meta
+      name="description"
+      content="A DreamNet scout board that maps ZABAL Gamez recordings to builder opportunities, Proof Drop receipts, DreamStar music, Droid OS, WaveWarZ dashboards, and Farcaster/Snapchain lanes."
+    />
+    <meta property="og:title" content="ZABAL Recording Scout" />
+    <meta
+      property="og:description"
+      content="30 ZABAL recordings mapped into actionable builder lanes by DreamNet."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://zabal-recording-scout.pages.dev/" />
+    <meta property="og:image" content="https://zabal-recording-scout.pages.dev/og-card.svg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="https://zabal-recording-scout.pages.dev/og-card.svg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main>
+      <section class="topbar" aria-label="Page header">
+        <div>
+          <p class="eyebrow">DreamNet x ZABAL Gamez</p>
+          <h1>ZABAL Recording Scout</h1>
+          <p class="lead">
+            A public-safe scout board that turns the ZABAL workshop library into build prompts, proof flows, video ideas,
+            dashboard angles, and agent-readable next steps.
+          </p>
+        </div>
+        <div class="status-card">
+          <span class="pulse"></span>
+          <strong id="sourceCount">30 recordings</strong>
+          <small id="generatedAt">Loading scout data...</small>
+        </div>
+      </section>
+
+      <section class="summary-grid" id="laneSummary" aria-label="Lane summary"></section>
+
+      <section class="control-row" aria-label="Controls">
+        <label>
+          Search
+          <input id="searchInput" type="search" placeholder="Try Snapchain, music, Proof Drop..." />
+        </label>
+        <label>
+          Lane
+          <select id="laneFilter">
+            <option value="all">All lanes</option>
+          </select>
+        </label>
+        <button id="copyBrief">Copy Zaal brief</button>
+      </section>
+
+      <section class="feature-panel">
+        <div>
+          <p class="eyebrow">Why It Matters</p>
+          <h2>DreamNet fits because ZAO already thinks in proofs, creators, agents, dashboards, and social rails.</h2>
+        </div>
+        <div class="fit-grid">
+          <div><strong>Proof Drop</strong><span>builder receipts and POIDH claims</span></div>
+          <div><strong>DreamStar</strong><span>music drops, visualizers, creator prompts</span></div>
+          <div><strong>Droid OS</strong><span>training, memory, roles, safe social agents</span></div>
+          <div><strong>WaveWarZ</strong><span>battle momentum and replay dashboards</span></div>
+          <div><strong>Social Nexus</strong><span>Farcaster, Snapchain, Nostr, ClawdChat distribution</span></div>
+          <div><strong>Agent University</strong><span>courses, badges, skill receipts, contribution trails</span></div>
+        </div>
+      </section>
+
+      <section>
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">Top Sessions</p>
+            <h2>Start Here</h2>
+          </div>
+          <span id="resultCount"></span>
+        </div>
+        <div class="recording-list" id="recordingList"></div>
+      </section>
+
+      <section class="next-panel">
+        <p class="eyebrow">Next Build Order</p>
+        <ol>
+          <li><strong>Proof Drop v1.3:</strong> shareable receipt URLs, POIDH copy, and leaderboard export.</li>
+          <li><strong>Recording Scout:</strong> this public page, kept fresh from the ZABAL JSON index.</li>
+          <li><strong>WaveWarZ board:</strong> momentum curve, final-minute swing, artist liquidity pressure.</li>
+          <li><strong>Remotion template:</strong> proof overlay, waveform, screen-recording frame, QR end card.</li>
+          <li><strong>IDE videos:</strong> practical builder setup series starting with Antigravity.</li>
+        </ol>
+      </section>
+    </main>
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

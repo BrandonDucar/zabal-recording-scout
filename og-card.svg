@@ -1,0 +1,36 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="ZABAL Recording Scout">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#06080c"/>
+      <stop offset="0.45" stop-color="#171225"/>
+      <stop offset="1" stop-color="#092232"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="0.5" stop-color="#ff6b9e"/>
+      <stop offset="1" stop-color="#5de3ff"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <circle cx="1040" cy="80" r="260" fill="#5de3ff" opacity="0.16"/>
+  <circle cx="120" cy="560" r="230" fill="#ff6b9e" opacity="0.14"/>
+  <rect x="70" y="70" width="1060" height="490" rx="24" fill="#11161f" opacity="0.82" stroke="#ffffff" stroke-opacity="0.14"/>
+  <text x="105" y="150" fill="#5de3ff" font-family="Arial, sans-serif" font-size="30" font-weight="800" letter-spacing="5">DREAMNET x ZABAL GAMEZ</text>
+  <text x="105" y="260" fill="#f7f1e8" font-family="Arial, sans-serif" font-size="86" font-weight="900">Recording Scout</text>
+  <text x="105" y="330" fill="#aeb8c5" font-family="Arial, sans-serif" font-size="34">30 workshops mapped to builder opportunities</text>
+  <g transform="translate(105 395)">
+    <rect width="155" height="82" rx="14" fill="#ffd166"/>
+    <text x="24" y="54" fill="#06080c" font-family="Arial, sans-serif" font-size="36" font-weight="900">28</text>
+    <text x="78" y="54" fill="#06080c" font-family="Arial, sans-serif" font-size="20" font-weight="800">Receipts</text>
+    <rect x="175" width="155" height="82" rx="14" fill="#5de3ff"/>
+    <text x="199" y="54" fill="#06080c" font-family="Arial, sans-serif" font-size="36" font-weight="900">24</text>
+    <text x="252" y="54" fill="#06080c" font-family="Arial, sans-serif" font-size="20" font-weight="800">Agents</text>
+    <rect x="350" width="155" height="82" rx="14" fill="#85ffb3"/>
+    <text x="374" y="54" fill="#06080c" font-family="Arial, sans-serif" font-size="36" font-weight="900">19</text>
+    <text x="426" y="54" fill="#06080c" font-family="Arial, sans-serif" font-size="20" font-weight="800">Dashboards</text>
+    <rect x="525" width="155" height="82" rx="14" fill="#ff6b9e"/>
+    <text x="549" y="54" fill="#06080c" font-family="Arial, sans-serif" font-size="36" font-weight="900">16</text>
+    <text x="600" y="54" fill="#06080c" font-family="Arial, sans-serif" font-size="20" font-weight="800">Farcaster</text>
+  </g>
+  <rect x="105" y="520" width="460" height="8" rx="4" fill="url(#accent)"/>
+</svg>
