@@ -4,6 +4,7 @@ Public scout page for the ZABAL Gamez recording library.
 
 The app turns the ZABAL workshop index into a builder-facing opportunity board:
 
+- onboarding for demo, public JSON URL, or pasted JSON,
 - top relevant sessions,
 - lane matching,
 - action recommendations,
@@ -40,6 +41,8 @@ The current public dataset is generated from:
 ```text
 https://zabalgamez.com/recordings/index.json
 ```
+
+That source currently populates the bundled 30-recording demo. Users can also load a different compatible scout JSON from the onboarding panel.
 
 The bundled snapshot lives at:
 

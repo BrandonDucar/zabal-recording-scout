@@ -27,14 +27,44 @@
           <p class="eyebrow">ZABAL Gamez builder guide</p>
           <h1>ZABAL Recording Scout</h1>
           <p class="lead">
-            Find the ZABAL sessions that match what you want to build. Search by topic, filter by lane,
-            open the recording or transcript, and turn workshop material into a shipped July artifact.
+            Start with the public ZABAL recordings demo or load your own archive. The scout organizes sessions
+            into useful lanes so builders can decide what to watch, what to make, and who to invite next.
           </p>
         </div>
         <div class="status-card">
           <span class="pulse"></span>
           <strong id="sourceCount">30 recordings</strong>
           <small id="generatedAt">Loading scout data...</small>
+        </div>
+      </section>
+
+      <section class="onboarding-panel" aria-label="Scout setup">
+        <div>
+          <p class="eyebrow">Start Here</p>
+          <h2>Choose an archive to scout.</h2>
+          <p class="summary">
+            The live demo uses the public ZABAL recordings index. A team can also paste another compatible JSON
+            URL or paste a JSON snapshot directly to scout a different workshop archive.
+          </p>
+        </div>
+        <div class="onboarding-form">
+          <label>
+            Archive name
+            <input id="archiveName" type="text" placeholder="ZABAL Gamez recordings" />
+          </label>
+          <label>
+            Public JSON URL
+            <input id="archiveUrl" type="url" placeholder="https://example.com/recordings/index.json" />
+          </label>
+          <label class="wide-field">
+            Paste scout JSON
+            <textarea id="archiveJson" placeholder='Optional: paste a scout JSON object with "top_recordings" and "lane_recommendations".'></textarea>
+          </label>
+          <div class="button-row">
+            <button id="loadDemo">Load ZABAL demo</button>
+            <button id="loadCustom" class="secondary-button">Run scout</button>
+          </div>
+          <p id="setupStatus" class="setup-status">Ready to load the public ZABAL demo.</p>
         </div>
       </section>
 
@@ -100,6 +130,7 @@
       <section class="next-panel">
         <p class="eyebrow">How To Use It</p>
         <ol>
+          <li><strong>Load an archive:</strong> use the public ZABAL demo, paste a compatible JSON URL, or paste JSON directly.</li>
           <li><strong>Pick a lane:</strong> choose receipts, music, video, dashboards, Farcaster, governance, or setup help.</li>
           <li><strong>Open a session:</strong> jump straight to the recording, YouTube mirror, or transcript.</li>
           <li><strong>Turn it into a build:</strong> use the session angle as a prompt for a July artifact.</li>
