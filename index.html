@@ -114,17 +114,30 @@
         <p class="eyebrow">Farcaster Artist Scout</p>
         <h2>Find under-discovered creators who could bring new energy into ZABAL.</h2>
         <p class="summary">
-          The next layer should scan public Farcaster activity for artists, musicians, video makers, game builders,
-          and culture people who already post work but may not know ZABAL exists yet. Keep it human-reviewed:
-          suggest creators, explain the fit, and let the team decide who to invite.
+          Run a public Farcaster scout pass for artists, musicians, video makers, game builders, and culture
+          people who already post work but may not know ZABAL exists yet. Results stay human-reviewed:
+          the scout suggests creators, explains the fit, and drafts invite copy for a person to approve.
         </p>
-        <div class="fit-grid scout-grid">
-          <div><strong>Signals</strong><span>original art, music, video, game clips, builds, frequent posting, real replies</span></div>
-          <div><strong>Fit Reasons</strong><span>which ZABAL lane they match and what kind of build they might ship</span></div>
-          <div><strong>Invite Copy</strong><span>short Farcaster replies or DMs written for a human to review first</span></div>
-          <div><strong>Do Not Spam</strong><span>no bulk outreach, no fake praise, no auto-raids, no low-context tagging</span></div>
+        <div class="artist-controls">
+          <label>
+            Search focus
+            <input id="artistQuery" type="search" placeholder="Try zora, music, animation, game, /art..." />
+          </label>
+          <label>
+            Creator lane
+            <select id="artistLane">
+              <option value="all">All creative lanes</option>
+              <option value="music">Music</option>
+              <option value="visual">Visual art</option>
+              <option value="video">Video</option>
+              <option value="game">Games</option>
+              <option value="builder">Builders</option>
+            </select>
+          </label>
+          <button id="runArtistScout">Run live scout</button>
         </div>
-        <button id="copyArtistBrief" class="secondary-button">Copy artist scout plan</button>
+        <p id="artistScoutStatus" class="setup-status">Ready to run a human-reviewed Farcaster scout pass.</p>
+        <div id="artistResults" class="artist-results"></div>
       </section>
 
       <section class="next-panel">

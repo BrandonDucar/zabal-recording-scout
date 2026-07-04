@@ -30,9 +30,23 @@ It maps workshops into practical lanes:
 
 ## Farcaster Artist Scout
 
-The app also includes a public-safe discovery concept for finding under-discovered Farcaster artists, musicians, video makers, game builders, and culture people who could fit ZABAL lanes.
+The app also includes a live Farcaster discovery panel for finding under-discovered artists, musicians, video makers, game builders, and culture people who could fit ZABAL lanes.
 
-This stays human-reviewed: the scout suggests candidates, fit reasons, and invite copy, but does not perform bulk outreach or automated engagement.
+This stays human-reviewed: the scout suggests candidates, fit reasons, sample casts, and invite copy, but does not perform bulk outreach or automated engagement.
+
+The Cloudflare Pages Function lives at:
+
+```text
+functions/api/artist-scout.js
+```
+
+It uses Neynar's public cast search endpoint when one of these Cloudflare secrets is configured:
+
+```text
+NEYNAR_API_KEY
+GHOSTMINTOPS_NEYNAR_API_KEY
+NEYCLAW_NEYNAR_API_KEY
+```
 
 ## Source
 

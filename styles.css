@@ -214,6 +214,14 @@ button {
   gap: 12px;
 }
 
+.artist-controls {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 220px 180px;
+  gap: 12px;
+  margin-top: 18px;
+  align-items: end;
+}
+
 .setup-status {
   margin: 0;
   color: var(--muted);
@@ -364,6 +372,74 @@ button {
   margin-top: 18px;
 }
 
+.artist-results {
+  display: grid;
+  gap: 14px;
+  margin-top: 18px;
+}
+
+.artist-card {
+  display: grid;
+  grid-template-columns: 52px minmax(0, 1fr);
+  gap: 14px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 14px;
+  background: var(--panel-2);
+}
+
+.artist-rank {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 8px;
+  color: #071015;
+  background: linear-gradient(135deg, var(--gold), var(--cyan));
+  font-weight: 950;
+}
+
+.artist-head {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.artist-head img {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.artist-head h3 {
+  margin: 0 0 2px;
+}
+
+.artist-head a,
+.sample-casts a {
+  color: var(--cyan);
+  text-decoration: none;
+}
+
+.sample-casts {
+  display: grid;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.sample-casts a {
+  display: block;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.05);
+  font-size: 13px;
+  line-height: 1.45;
+}
+
 ol {
   margin-bottom: 0;
   color: var(--muted);
@@ -378,6 +454,7 @@ li + li {
   .topbar,
   .feature-panel,
   .onboarding-panel,
+  .artist-controls,
   .control-row,
   .recording-card {
     grid-template-columns: 1fr;

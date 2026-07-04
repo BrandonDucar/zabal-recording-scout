@@ -13,7 +13,11 @@ const recordingList = document.getElementById("recordingList");
 const resultCount = document.getElementById("resultCount");
 const searchInput = document.getElementById("searchInput");
 const copyBrief = document.getElementById("copyBrief");
-const copyArtistBrief = document.getElementById("copyArtistBrief");
+const artistQuery = document.getElementById("artistQuery");
+const artistLane = document.getElementById("artistLane");
+const runArtistScout = document.getElementById("runArtistScout");
+const artistScoutStatus = document.getElementById("artistScoutStatus");
+const artistResults = document.getElementById("artistResults");
 const archiveName = document.getElementById("archiveName");
 const archiveUrl = document.getElementById("archiveUrl");
 const archiveJson = document.getElementById("archiveJson");
@@ -146,27 +150,82 @@ I also added a Farcaster Artist Scout idea: find under-discovered artists/builde
 Curious if this feels useful for ZABAL builders.`;
 }
 
-function buildArtistBrief() {
-  return `Farcaster Artist Scout idea for ZABAL:
+function renderArtistResults(payload) {
+  if (!payload.connected) {
+    artistScoutStatus.textContent = payload.message || "Farcaster backend is not connected yet.";
+    artistResults.innerHTML = `
+      <article class="artist-card">
+        <div>
+          <strong>Backend not connected</strong>
+          <p class="summary">The scout UI is live, but Cloudflare needs a Neynar API key secret before it can search Farcaster. Once connected, this panel will return creator candidates, fit reasons, and invite copy.</p>
+        </div>
+      </article>
+    `;
+    return;
+  }
 
-Use public Farcaster activity to find under-discovered artists, musicians, video makers, game builders, and culture people who could fit ZABAL Gamez.
+  const candidates = payload.candidates || [];
+  artistScoutStatus.textContent = candidates.length
+    ? `Found ${candidates.length} human-review candidates from ${payload.source}.`
+    : payload.message || "No candidates returned for this search.";
 
-For each candidate, produce:
-- creator handle and public link
-- what they make
-- which ZABAL lane they fit
-- why they might care
-- suggested build prompt
-- human-reviewed invite copy
+  artistResults.innerHTML = candidates.length
+    ? candidates
+        .map(
+          (candidate, index) => `
+            <article class="artist-card">
+              <div class="artist-rank">${index + 1}</div>
+              <div>
+                <div class="artist-head">
+                  ${candidate.pfpUrl ? `<img src="${escapeHtml(candidate.pfpUrl)}" alt="" />` : ""}
+                  <div>
+                    <h3>${escapeHtml(candidate.displayName)}</h3>
+                    <a href="${escapeHtml(candidate.profileUrl)}" target="_blank" rel="noreferrer">@${escapeHtml(candidate.username)}</a>
+                  </div>
+                </div>
+                <div class="meta">
+                  <span class="chip">score ${escapeHtml(candidate.score)}</span>
+                  <span class="chip">${escapeHtml(candidate.lane)}</span>
+                  <span class="chip">${escapeHtml(candidate.followerCount)} followers</span>
+                </div>
+                <p class="summary">${escapeHtml(candidate.fitReason)}</p>
+                <div class="sample-casts">
+                  ${(candidate.sampleCasts || [])
+                    .map(
+                      (cast) => `
+                        <a href="${escapeHtml(cast.url || candidate.profileUrl)}" target="_blank" rel="noreferrer">
+                          ${escapeHtml(cast.text || "Open sample cast")}
+                        </a>
+                      `,
+                    )
+                    .join("")}
+                </div>
+                <button class="secondary-button copy-invite" data-invite="${escapeHtml(candidate.inviteCopy)}">Copy invite copy</button>
+              </div>
+            </article>
+          `,
+        )
+        .join("")
+    : `<article class="artist-card"><div><strong>No candidates yet</strong><p class="summary">Try a broader lane or search focus.</p></div></article>`;
 
-Rules:
-- no bulk outreach
-- no fake praise
-- no auto-raids
-- no low-context tagging
-- keep it opt-in and useful
+  artistResults.querySelectorAll(".copy-invite").forEach((button) => {
+    button.addEventListener("click", async () => {
+      await navigator.clipboard.writeText(button.dataset.invite || "");
+      button.textContent = "Copied";
+    });
+  });
+}
 
-Goal: help ZABAL discover new creators before they are obvious, then invite the right people into July build month.`;
+async function runFarcasterArtistScout() {
+  artistScoutStatus.textContent = "Running Farcaster scout pass...";
+  artistResults.innerHTML = "";
+  const params = new URLSearchParams({
+    lane: artistLane.value,
+    q: artistQuery.value.trim(),
+  });
+  const response = await fetch(`/api/artist-scout?${params.toString()}`);
+  const payload = await response.json();
+  renderArtistResults(payload);
 }
 
 function normalizeScout(scout, sourceMode = "custom") {
@@ -264,9 +323,12 @@ async function init() {
     copyBrief.textContent = "Brief copied";
   });
 
-  copyArtistBrief.addEventListener("click", async () => {
-    await navigator.clipboard.writeText(buildArtistBrief());
-    copyArtistBrief.textContent = "Artist plan copied";
+  runArtistScout.addEventListener("click", async () => {
+    try {
+      await runFarcasterArtistScout();
+    } catch (error) {
+      artistScoutStatus.textContent = error.message;
+    }
   });
 
   loadDemo.addEventListener("click", async () => {
