@@ -40,3 +40,8 @@ The bundled snapshot lives at:
 data/scout.json
 ```
 
+## Live URL
+
+```text
+https://dreamnet-zabal-scout.pages.dev/
+```
