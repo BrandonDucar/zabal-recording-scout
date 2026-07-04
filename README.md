@@ -1,6 +1,6 @@
 # ZABAL Recording Scout
 
-Public scout-page concept for the ZABAL Gamez recording library.
+Public scout page for the ZABAL Gamez recording library.
 
 The app turns the ZABAL workshop index into a builder-facing opportunity board:
 
@@ -13,7 +13,7 @@ This is a public-safe standalone concept. It does not include private runtime, s
 
 ## Live Purpose
 
-The scout helps ZABAL builders decide what to watch and what to build next.
+The scout helps ZABAL builders decide what to watch, why it matters, and what kind of artifact it could help them ship during July build month.
 
 It maps workshops into practical lanes:
 

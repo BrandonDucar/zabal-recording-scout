@@ -95,7 +95,7 @@ function renderRecordings() {
 }
 
 function buildBrief() {
-  return `Had an idea for the ZABAL recordings you sent me to look into.
+  return `Had an idea for making the ZABAL recording archive easier for builders to use.
 
 What if the archive also had a scout layer: search, lane filters, direct recording/YouTube/transcript links, and build prompts for July builders?
 
@@ -107,7 +107,7 @@ Current snapshot:
 - lanes for receipts/Proof Drop, music, video, WaveWarZ dashboards, Farcaster/Snapchain, governance, and IDE tutorials
 - each session gets a quick "what could someone build from this?" angle
 
-Curious if this direction feels useful for ZABAL.`;
+Curious if this direction feels useful as a lightweight archive upgrade for ZABAL.`;
 }
 
 async function init() {
