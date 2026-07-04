@@ -95,18 +95,19 @@ function renderRecordings() {
 }
 
 function buildBrief() {
-  return `I turned the ZABAL recordings into a DreamNet scout board.
+  return `Had an idea for the ZABAL recordings you sent me to look into.
 
-30 recordings checked.
-28 map to Proof Drop / receipts.
-24 map to Droid OS / agent identity.
-24 map to IDE tutorials / vibe coding.
-19 map to WaveWarZ dashboard ideas.
-16 map to Farcaster / Snapchain.
+What if the archive also had a scout layer: search, lane filters, direct recording/YouTube/transcript links, and build prompts for July builders?
 
-The point: DreamNet can help ZABAL builders convert workshops into build prompts, receipts, dashboards, songs, videos, and agent-readable memory.
+I mocked up a first pass:
+${location.href}
 
-Live scout: ${location.href}`;
+Current snapshot:
+- 30 recordings indexed
+- lanes for receipts/Proof Drop, music, video, WaveWarZ dashboards, Farcaster/Snapchain, governance, and IDE tutorials
+- each session gets a quick "what could someone build from this?" angle
+
+Curious if this direction feels useful for ZABAL.`;
 }
 
 async function init() {
