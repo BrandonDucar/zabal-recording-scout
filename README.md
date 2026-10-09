@@ -69,3 +69,7 @@ data/scout.json
 ```text
 https://dreamnet-zabal-scout.pages.dev/
 ```
+
+## License
+
+Original software and project documentation are licensed under Apache-2.0. See [LICENSE](LICENSE). See [NOTICE](NOTICE) for attribution, licensing scope and third-party/media exclusions.
